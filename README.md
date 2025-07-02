@@ -48,30 +48,33 @@ Open your browser at: 👉 http://127.0.0.1:8000/docs (Swagger UI)
 ## 🧪 Available API Endpoints
 ### 🔤 /states?letter=Del
 Get all states starting with 1 to 3 letters (case-insensitive).<br>
-Method: GET<br>
-Query Param:<br>
+**Method**: GET<br>
+**Query Param**:<br>
 * letter (required): 1 to 3 characters
-Example:<br>
+<br>
+Example:
 ``` bash
 /states?letter=Del
 ```
 
 ### 🏙️ /cities?state_name=Bihar
 Get all cities in a given state.<br>
-Method: GET<br>
-Query Param:<br>
+**Method**: GET<br>
+**Query Param**:<br>
 * state_name (required)
-Example:<br>
+<br>
+Example:
 ```bash
 /cities?state_name=Maharashtra
 ```
 
 ### 📄 /details?state_name=Bihar&city_name=Patna
 Get full data for a specific state and city.<br>
-Method: GET<br>
-Query Params:<br>
+**Method**: GET<br>
+**Query Params**:<br>
 * state_name (required)
-* city_name (required)<br>
+* city_name (required)
+<br>
 Example:
 ``` bash
 /details?state_name=Delhi&city_name=Deoli
