@@ -51,7 +51,6 @@ Get all states starting with 1 to 3 letters (case-insensitive).<br>
 **Method**: GET<br>
 **Query Param**:
 * letter (required): 1 to 3 characters
-<br>
 Example:
 
 ```bash
@@ -63,7 +62,6 @@ Get all cities in a given state.<br>
 **Method**: GET<br>
 **Query Param**:
 * state_name (required)
-<br>
 Example:
 
 ```bash
@@ -76,7 +74,6 @@ Get full data for a specific state and city.<br>
 **Query Params**:
 * state_name (required)
 * city_name (required)
-<br>
 Example:
 
 ```bash
@@ -84,8 +81,8 @@ Example:
 ```
 
 ## 🛡️ Error Handling
-* 404 Not Found – If no matching states, cities, or data found
-* 422 Unprocessable Entity – If required query params are missing or invalid
+* **404 Not Found** – If no matching states, cities, or data found
+* **422 Unprocessable Entity** – If required query params are missing or invalid
 
 ## 📚 Swagger Docs
 Auto-generated docs available at:
